@@ -1,4 +1,4 @@
-name: Github Actions
+name: HdkMG
 run-name: ${{ github.actor }} test
 on: [push]
 jobs:

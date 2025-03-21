@@ -1,11 +1,10 @@
 name: HdkMG
-run-name: ${{ github.actor }} test
 on: [push]
 jobs:
    hello_worlds_jobs:
       runs-on: ubuntu-latest
       steps:
-         - name: recuperation du code
-            uses: actions/checkout@v2
-         - name: Hello world
+         - name: Recuperation du code                                                            
+            uses: actions/checkout@v4
+         - name: Hello World
             run: echo "Hello World !"
